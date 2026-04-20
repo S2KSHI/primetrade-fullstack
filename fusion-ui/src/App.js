@@ -17,7 +17,7 @@ function App() {
   const [showPassword, setShowPassword] = useState(false);
   const [userName, setUserName] = useState('');
 
-  const API_URL = 'https://primetrade-backend.onrender.com/api/v1';
+const API_URL = 'https://primetrade-fullstack.onrender.com/api/v1';
 
   // Check theme and login status on mount
   useEffect(() => {
